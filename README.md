@@ -3,7 +3,7 @@ Search engine automation and verify website link locating on Google's top result
 
 ===========================================================================
 
-What were my reasons on choosing the automation tool:
+What were my reasons on choosing the automation tool?
 
 ===========================================================================
 
