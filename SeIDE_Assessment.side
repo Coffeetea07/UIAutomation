@@ -1,0 +1,141 @@
+{
+  "id": "8d8ba082-beff-496d-b758-8429e8affdca",
+  "version": "2.0",
+  "name": "SeIDE_Assessment",
+  "url": "https://www.google.com/",
+  "tests": [{
+    "id": "ae78fd56-fbe3-43b8-a19b-4281ecea4343",
+    "name": "SearchTest_WIkipedia",
+    "commands": [{
+      "id": "e11e40b3-9d9d-4f60-969a-c483b3cfd81d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb1e4a74-add7-4fcd-9903-a511019e27eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1036x1102",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a83d3cd-4a70-4ff1-a91e-19719f173db5",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7f88d51-2b45-4eba-ae39-a2113f43960a",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Software"
+    }, {
+      "id": "7603a730-d3d4-4ff9-93dd-31e7ab6b31af",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnK",
+      "targets": [
+        ["name=btnK", "name"],
+        ["css=center:nth-child(2) > .gNO89b", "css:finder"],
+        ["xpath=//input[@name='btnK']", "xpath:attributes"],
+        ["xpath=//center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f206612-de4e-4a99-b499-b96092b8df21",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.g:nth-child(1) > div:nth-child(2) a .qLRx3b",
+      "targets": [
+        ["css=.g:nth-child(1) > div:nth-child(2) a .qLRx3b", "css:finder"],
+        ["xpath=//div[@id='rso']/div[2]/div/div/div/div/a/div/cite", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/div/cite", "xpath:position"],
+        ["xpath=//cite[contains(.,'https://en.wikipedia.org › wiki › Software')]", "xpath:innerText"]
+      ],
+      "value": "https://en.wikipedia.org › wiki › Software"
+    }]
+  }, {
+    "id": "eb42bfa8-9848-407c-af5d-d320acf1be5b",
+    "name": "SearchTest_Britannica",
+    "commands": [{
+      "id": "aff829a1-cdd2-49b8-8bb8-c0f9ad6eb458",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89f612f4-91e2-474b-a464-663c7e2c4a39",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1036x1102",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "237a79fd-8c22-47d1-9599-9ad6b0f86ed0",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f6bb696-0968-4962-bd8c-b403147869e2",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [],
+      "value": "Literature"
+    }, {
+      "id": "56decabe-139e-4e75-9e38-f95c75e29eb5",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnK",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3c06e82-4268-49f8-8748-d1a7d184c08f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,893.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "785a58c4-0c3b-4d8f-9166-99b9d305314b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.hlcw0c:nth-child(4) a .iUh30",
+      "targets": [
+        ["css=.hlcw0c:nth-child(4) a .iUh30", "css:finder"],
+        ["xpath=//div[@id='rso']/div[4]/div/div/div/div/a/div/cite", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/a/div/cite", "xpath:position"],
+        ["xpath=//cite[contains(.,'https://www.britannica.com › Literature › Literary Terms')]", "xpath:innerText"]
+      ],
+      "value": "https://www.britannica.com › Literature › Literary Terms"
+    }]
+  }],
+  "suites": [{
+    "id": "619e0a1e-7ab0-4159-86cb-0ccacfc20a4c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ae78fd56-fbe3-43b8-a19b-4281ecea4343"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
