@@ -1,7 +1,7 @@
 # UIAutomation
 Search engine automation and verify website link locating on Google's top result page
 
-========================================================================================
+===========================================================================
 
 What were my reasons on choosing the automation tool:
 
