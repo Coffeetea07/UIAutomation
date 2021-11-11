@@ -5,7 +5,7 @@ Search engine automation and verify website link locating on Google's top result
 
 What were my reasons on choosing the automation tool:
 
-========================================================================================
+===========================================================================
 
 I have initially wanted to use Browserstack since I have already paid one month subcription of it.
 But I have realise that what if the client doesnt have much budget to maintain the application. 
@@ -13,11 +13,11 @@ I have settled with the freemium yet open source app which is Selenium IDE and i
 any web browser: Chrome, Firefox, Edge, Opera.
   
 
-========================================================================================
+===========================================================================
 
 What have I learned from trying out Selenium IDE before proceeding the code as final?
  
-========================================================================================
+===========================================================================
 
 The steps to install is very easy. The difficult part was at glance the Selenium software design.
 It was highly confusing until I realised which area to press and then enter the command code.
@@ -29,11 +29,11 @@ I got used to the application design of the command line and eventually was able
   
 It was a fun experience overall.
   
-========================================================================================
+===========================================================================
 
 Which of my skills were utilised to make this solution possible?
 
-========================================================================================
+===========================================================================
 
 My current work of exploratory testing made me able to do manual testing of the new application effectively. 
 There was no coding design in the command list. But in a sense, its understandable in Java programming 
