@@ -55,7 +55,7 @@ Instructions:
 
 ![image](https://user-images.githubusercontent.com/28858510/141277415-43d64183-4ee0-4510-a2d5-056015e7a0d4.png)
 
-5. Select "Open and existing project". Get a local copy of the .Side file in this repository
+5. Get a local copy of the .Side file in this repository. Select "Open and existing project" then select the downloaded side file.
 
 7. Select one of test in the list the press run to execute automation
 
