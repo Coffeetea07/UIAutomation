@@ -39,3 +39,25 @@ My current work of exploratory testing made me able to do manual testing of the 
 There was no coding design in the command list. But in a sense, its understandable in Java programming 
 concept design. It took a bit of time until I have clear up my error codes and ended up running perfectly 
 and according to the instruction of test solution.
+
+===========================================================================
+===========================================================================
+===========================================================================
+
+Instructions:
+
+1. Install Google Chrome 95.0.4638.69 or later
+2. Go to Chrome Webstore or Selenium’s official site link: https://www.selenium.dev/selenium-ide/ to install Selenium IDE 3.17.1 or later
+3. Enter url: chrome://extensions/ , find Selenium then click details button -> set it to On
+![image](https://user-images.githubusercontent.com/28858510/141276446-6072d71e-8386-454d-8308-8fcbd205cb9c.png)
+![image](https://user-images.githubusercontent.com/28858510/141276768-4f9164ac-d3c5-41d3-8b51-dcd9cdfe182e.png)
+4. Pin Selenium in extension lists then open the app.
+
+![image](https://user-images.githubusercontent.com/28858510/141277415-43d64183-4ee0-4510-a2d5-056015e7a0d4.png)
+
+5. Select "Open and existing project". Get a local copy of the .Side file in this repository
+
+7. Select one of test in the list the press run to execute automation
+
+![image](https://user-images.githubusercontent.com/28858510/141278300-8b4d0dec-a3c0-465d-a122-23531f038de5.png)
+
