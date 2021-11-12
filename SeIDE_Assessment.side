@@ -117,15 +117,24 @@
     }, {
       "id": "785a58c4-0c3b-4d8f-9166-99b9d305314b",
       "comment": "",
-      "command": "verifyText",
+      "command": "verifyElementPresent",
       "target": "css=.hlcw0c:nth-child(4) a .iUh30",
-      "targets": [
-        ["css=.hlcw0c:nth-child(4) a .iUh30", "css:finder"],
-        ["xpath=//div[@id='rso']/div[4]/div/div/div/div/a/div/cite", "xpath:idRelative"],
-        ["xpath=//div[4]/div/div/div/div/a/div/cite", "xpath:position"],
-        ["xpath=//cite[contains(.,'https://www.britannica.com › Literature › Literary Terms')]", "xpath:innerText"]
-      ],
+      "targets": [],
       "value": "https://www.britannica.com › Literature › Literary Terms"
+    }, {
+      "id": "d7b4c6cc-801c-4224-bcb6-80380f0a81b3",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.hlcw0c:nth-child(4) a .iUh30",
+      "targets": [],
+      "value": "brit_var"
+    }, {
+      "id": "3d9e74f1-6c00-4574-8c59-3f4418152daf",
+      "comment": "",
+      "command": "echo",
+      "target": "Britannica.com present position: $(brit_var)",
+      "targets": [],
+      "value": ""
     }]
   }],
   "suites": [{
